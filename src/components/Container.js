@@ -8,7 +8,7 @@ import AboutPic from "./AboutPic"
 export default function Container() {
     return (
         <div className="container">
-            <NavBar />
+            {/* <div><NavBar /></div> */}
             <ProfilePic />
             <AboutPic />
             <div className="aboutProjects">
