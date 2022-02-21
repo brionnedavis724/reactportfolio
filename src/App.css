@@ -37,7 +37,9 @@
 
 .navLinks {
   text-decoration: none;
-  color: white;
+  color: #128FE2;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 .navbar {
@@ -50,6 +52,7 @@
   width: 90%;
   /* height: 30px; */
   color: white;
+  font-size: 18px;
   padding: 20px;
   margin-top: 10px;
 }
@@ -57,28 +60,65 @@
 .aboutPic {
   /* border: 2px solid green; */
 
-  width: 750px;
+  /* width: 750px; */
   margin-top: 60px;
+
+  display: inline-block;
+  position: relative;
 }
 
-.about {
-  border: 1px solid white;
+.intro {
+  /* border: 1px solid white; */
 
   color: white;
+  font-size: 36px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.profilePic {
-  display: flex;
   justify-content: center;
+
+  position: absolute;
+  top: 3px;
+  left: 16px;
 }
 
 .pic {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 
   opacity: 0.5;
+  border-radius: 20px;
+}
+
+.about {
+  /* border: 2px solid springgreen; */
+
+  width: 50%;
+  /* margin-top: 70px;
+  padding: 10px; */
+  font-size: 18px;
+  text-align: center;
+  color: #fffd77;
+}
+
+.aboutProjects {
+  border: 2px solid pink;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 70%;
+  height: 800px;
+  margin-top: 20px;
+}
+
+.projects {
+  /* width: 500px;
+  height: 800px; */
+
+  /* padding: 15px; */
+  color: red;
 }

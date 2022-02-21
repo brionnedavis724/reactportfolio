@@ -5,7 +5,7 @@ export default function AboutPic() {
     // these are components: containers for UI elements
     // this must be imported in App
     <div className='aboutPic'>
-        <div className='about'>
+        <div className='intro'>
             React Portfolio, <span id="name">Brionne Davis</span>
         </div>
          <div className='profilePic'>

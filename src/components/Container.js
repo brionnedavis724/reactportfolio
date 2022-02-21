@@ -10,9 +10,11 @@ export default function Container() {
         <div className="container">
             <NavBar />
             <ProfilePic />
-            <About />
             <AboutPic />
-            <Projects />
+            <div className="aboutProjects">
+                <About />
+                <Projects />
+            </div>
         </div>
     )
 }
