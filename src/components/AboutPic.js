@@ -5,7 +5,8 @@ export default function AboutPic() {
     // these are components: containers for UI elements
     // this must be imported in App
     <div className='aboutPic'>
-        About Profile Pic
+        Display About
+        Display Profile Pic
     </div>
     )
 }
