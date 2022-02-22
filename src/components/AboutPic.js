@@ -31,7 +31,7 @@ export default function AboutPic() {
             </div>
         </div>
         <div className='connect'>
-            <button id="connectBtn">Let's work together!</button>
+            <button id="connectBtn"><a href="https://www.google.com">Let's work together!</a></button>
         </div>
     </div>
     )

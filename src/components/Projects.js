@@ -11,11 +11,21 @@ export default function Projects() {
             <h2>Portfolio</h2>
         </div> */}
         <div className='thumbnailDiv'>
-            <img id="thumbnails" src='./basicPortfolio.png' alt="projects" />
-            <img id="thumbnails" src='./nftHW.png' alt="projects" />
-            <img id="thumbnails" src='./myNFT.jpg' alt="projects" />
-            <img id="thumbnails" src='./tipCalc.jpg' alt="projects" />
-            <img id="thumbnails" src='./tipCalcRange.jpg' alt="projects" />
+            <a href="https://mybasicportfolio.netlify.app/">
+                <img id="thumbnails" src='./basicPortfolio.png' alt="projects" />
+            </a>
+            <a href="https://nfthw.netlify.app/">
+                <img id="thumbnails" src='./nftHW.png' alt="projects" />
+            </a>
+            <a href="https://github.com/brionnedavis724/myNFT.git">
+                <img id="thumbnails" src='./myNFT.jpg' alt="projects" />
+            </a>
+            <a href="https://tipcalculatorbdavis.netlify.app/">
+                <img id="thumbnails" src='./tipCalc.jpg' alt="projects" />  
+            </a>
+            <a href="https://tipcalculatorbdavis.netlify.app/">
+                <img id="thumbnails" src='./tipCalcRange.jpg' alt="projects"/>
+            </a>
             {/* <img id="thumbnails" src='' alt="projects" />
             <img id="thumbnails" src='' alt="projects" /> */}
         </div>
