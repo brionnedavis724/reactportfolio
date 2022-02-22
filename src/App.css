@@ -9,6 +9,7 @@
   /* gradient background */
   width: 100%;
   height: 100vh;
+  background-image: linear-gradient(to bottom right, #B8B8B8 , #6CEF9A);
 
   display: flex;
   justify-content: center;
@@ -18,26 +19,18 @@
 
 .container {
   /* border: 3px solid white; */
-  background-color: #141414;
+
+  /* background-color: #141414; */
+  background-color: #C9C5CB;
+  box-shadow: 0 25px 50px 0 #1F1F1F;
+  border-radius: 50px;
+  width: 75%;
+  height: 90vh;
 
   display: flex;
   /* flex-direction: column; */
-  justify-content: center;
-  /* justify-content: space-around; */
+  justify-content: flex-start;
   align-items: center;
-  
-  width: 75%;
-  height: 100vh;
-  /* padding-top: 15px; */
-
-  box-shadow: 0 25px 50px 0 #1F1F1F;
-}
-
-.navLinks {
-  text-decoration: none;
-  color: #128FE2;
-  font-size: 22px;
-  font-weight: bold;
 }
 
 .navbar {
@@ -55,27 +48,50 @@
   margin-top: 10px;
 }
 
+.navLinks {
+  text-decoration: none;
+  color: #128FE2;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navLinks:active {
+  color: red;
+  font-size: 20px;
+}
+
 .aboutPic {
-  border: 2px solid green;
+  /* border: 2px solid green; */
 
   /* width: 750px; */
-  /* margin-top: 60px; */
+  height: 80%;
+  margin: 125px;
+
+
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
 
-  /* display: inline-block;
-  position: relative; */
+.pic {
+  width: 250px;
+  height: 250px;
+
+  opacity: 0.5;
+  border-radius: 50%;
 }
 
 .intro {
-  border: 1px solid white;
+  /* border: 1px solid white; */
 
   color: white;
-  font-size: 28px;
+  font-size: 36px;
+  height: 100px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 
   /* position: absolute;
   top: 3px;
@@ -89,45 +105,147 @@
 
 .intro #jobTitle {
   font-weight: 300;
+  font-size: 20px;
+  background-color: silver;
+  border-radius: 15px;
+  color: black;
+  padding: 6px;
 }
 
-.pic {
-  width: 350px;
-  height: 350px;
+.info {
+  /* border: 2px solid lavender; */
+  
+  color: white;
+  height: 200px;
+  background-color: #292929;
+  opacity: 0.4;
+  box-shadow: 1px 1px 15px 10px #292929;
 
-  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info .github {
+  color: white;
+  text-decoration: none;
+}
+
+.info .github:hover {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.connect {
+  /* border: 1px solid blue; */
+  color: silver;
+  height: 40px;
+  margin-top: 15px;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.connect button {
   border-radius: 20px;
+  width: 150px;
 }
 
-.about {
-  border: 2px solid springgreen;
-
-  width: 50%;
-  /* margin-top: 70px;
-  padding: 10px; */
-  font-size: 18px;
-  text-align: center;
-  color: #fffd77;
+.connect button:hover {
+  cursor: pointer;
+  font-style: italic;
+  width: 175px;
+  padding: 20px;
+  font-weight: bold;
 }
 
 .aboutProjects {
-  border: 2px solid pink;
+  /* border: 2px solid pink; */
   border-radius: 20px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-
-  width: 60%;
-  height: 800px;
-  margin-top: 20px;
+  /* justify-content: space-evenly; */
+  
+  /* padding: 0px 20px; */
+  /* margin-left: 50px; */
+  width: 57%;
+  height: 80%;
 }
 
-.projects {
-  /* width: 500px;
-  height: 800px; */
+#about {
+  /* border: 2px solid orange; */
 
-  /* padding: 15px; */
-  color: red;
+  /* width: 50%; */
+  padding: 10px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  /* text-align: center; */
+  color: white;
+}
+
+/* #about h1 {
+  text-align: left;
+} */
+
+/* .aboutProjects .about {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+} */
+
+.projects {
+  border: 1px solid purple;
+  box-sizing: border-box;
+  /* color: red; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  width: 95%;
+  height: 450px;
+  margin-top: 50px;
+  background-color: #E8F1F2;
+  border-radius: 20px;
+}
+
+/* .projects h2 {
+  border: 1px solid red;
+  display: none;
+} */
+
+.thumbnailDiv {
+  /* border: 2px solid green;  */
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding: 40px;
+}
+
+#thumbnails {
+  border-radius: 20px;
+  height: auto;
+  width: 225px;
+  margin-bottom: 16px;
+  padding: 5px;
+
+  /* float: right; */
+}
+
+#thumbnails:hover {
+  border: 2px solid #128FE2;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
 }

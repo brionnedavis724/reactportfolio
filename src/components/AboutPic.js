@@ -17,11 +17,22 @@ export default function AboutPic() {
             </div>
         </div>
         <div className='info'>
-            <p id='birthdate'>November 3, 1993</p>
-            <p id="location">New York, NY</p>
-            <p id="github">Github</p>
+            <div className='calenDate icon'>   
+                <img src="" className="icons" id="birthdate" alt=""/>
+                <p id='birthdate'>November 3, 1993</p>
+            </div>
+            <div className='gpsLocation icon'>
+                <img src="" className="icons" id="location" alt=""/>
+                <p id="location">New York, NY</p>
+            </div>
+            <div className='git icon'>
+                <img src="" className='icons' id="github" alt=""/><br></br>
+                <a href="https://github.com/brionnedavis724" className='github'>Github</a>
+            </div>
         </div>
-        <div className='email'>Let's work together!</div>
+        <div className='connect'>
+            <button id="connectBtn">Let's work together!</button>
+        </div>
     </div>
     )
 }
