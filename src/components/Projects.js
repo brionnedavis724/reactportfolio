@@ -26,8 +26,10 @@ export default function Projects() {
             <a href="https://tipcalculatorbdavis.netlify.app/">
                 <img id="thumbnails" src='./tipCalcRange.jpg' alt="projects"/>
             </a>
-            {/* <img id="thumbnails" src='' alt="projects" />
-            <img id="thumbnails" src='' alt="projects" /> */}
+            <a href="https://github.com/brionnedavis724/reactportfolio">
+                <img id="thumbnails" src='reactPortfolio.jpg' alt="projects" />
+            </a>
+            {/* <img id="thumbnails" src='' alt="projects" /> */}
         </div>
     </div>
   )
